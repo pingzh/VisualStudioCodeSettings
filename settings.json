@@ -1,0 +1,155 @@
+{
+  "remote.SSH.connectTimeout": 120,
+  "todohighlight.keywords": [
+    "TODO",
+    "NOTE"
+  ],
+  "workbench.tree.indent": 24,
+  "workbench.iconTheme": "vs-seti",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "extensions.ignoreRecommendations": true,
+  "explorer.confirmDelete": false,
+  "editor.fontSize": 12,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "editor.formatOnSave": true,
+  "editor.suggestSelection": "first",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "editor.rulers": [
+    128
+  ],
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.autoSave": "off",
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.incsearch": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<CR>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
+    },
+    {
+      "before": [
+        ">"
+      ],
+      "commands": [
+        "editor.action.indentLines"
+      ]
+    },
+    {
+      "before": [
+        "<"
+      ],
+      "commands": [
+        "editor.action.outdentLines"
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "="
+      ],
+      "commands": [
+        "editor.action.formatDocument"
+      ]
+    },
+    {
+      "before": [
+        "<C-c>"
+      ],
+      "after": [
+        "<Esc>",
+        ":",
+        "w",
+        "<Enter>"
+      ]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/*.pyc": true,
+    "**/*.sqlite": true,
+    "**/.gitignore": true,
+    "**/__pycache__": true,
+    "**/node_modules": true,
+    "**/yarn.lock": true,
+    "**/generated-apps": true,
+    ".dockerignore": true,
+    ".env": true,
+    ".github": true,
+    ".gitignore": true,
+    ".idea": true,
+    ".ipynb_checkpoints": true,
+    ".pixi": true,
+    ".pytest_cache": true,
+    ".vscode": true,
+    "LICENSE": true,
+    "__pycache__": true,
+    "poetry.lock": true
+  },
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit"
+    }
+  },
+  "[javascript]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "always"
+    }
+  },
+  "editor.inlineSuggest.enabled": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.startupEditor": "none",
+  "window.zoomLevel": 2,
+  "git.openRepositoryInParentFolders": "never",
+  "[go]": {
+    "editor.formatOnSave": false
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "gitlens.views.drafts.avatars": false,
+  "cloudcode.duetAI.project": "zerodte-448205",
+  "workbench.colorTheme": "Solarized Light",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.defaultInterpreterPath": "/opt/homebrew/Caskroom/miniforge/base/envs/py312",
+  "rust-analyzer.inlayHints.chainingHints.enable": false,
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "rust-analyzer.inlayHints.parameterHints.enable": false,
+  "docker.extension.enableComposeLanguageServer": false,
+  "docker.extension.dockerEngineAvailabilityPrompt": false,
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true,
+    "/var/folders/tj/f4myxx8s2pv2d2610wnss13m0000gn/T/postman-http-request-post-response.instructions.md": true,
+    "/var/folders/tj/f4myxx8s2pv2d2610wnss13m0000gn/T/postman-http-request-pre-request.instructions.md": true
+  }
+}
